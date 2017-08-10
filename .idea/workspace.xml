@@ -23,10 +23,6 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e6de0e21-a99c-469d-8ec2-adfde92d627a" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/KotlinModels/Circle.kt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/KotlinModels/Rectangle.kt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/KotlinModels/Square.kt" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/KotlinVersion/Shape.kt" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -375,7 +371,7 @@
       <option name="presentableId" value="Default" />
       <updated>1502366478398</updated>
       <workItem from="1502366481665" duration="2903000" />
-      <workItem from="1502369459804" duration="852000" />
+      <workItem from="1502369459804" duration="912000" />
     </task>
     <task id="LOCAL-00001" summary="Added all files! Soon I will upload some Kotlin files same as this Java ones!">
       <created>1502368541398</created>
@@ -384,11 +380,18 @@
       <option name="project" value="LOCAL" />
       <updated>1502368541398</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Some weird error on my IntelliJ occurs, so just for safety! :D Hahaha &#10;NOTE: I still love IntelliJ!">
+      <created>1502370356449</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1502370356449</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="3755000" />
+    <option name="totallyTimeSpent" value="3815000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1616" height="886" extended-state="6" />
@@ -432,7 +435,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Added all files! Soon I will upload some Kotlin files same as this Java ones!" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added all files! Soon I will upload some Kotlin files same as this Java ones!" />
+    <MESSAGE value="Some weird error on my IntelliJ occurs, so just for safety! :D Hahaha &#10;NOTE: I still love IntelliJ!" />
+    <option name="LAST_COMMIT_MESSAGE" value="Some weird error on my IntelliJ occurs, so just for safety! :D Hahaha &#10;NOTE: I still love IntelliJ!" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
