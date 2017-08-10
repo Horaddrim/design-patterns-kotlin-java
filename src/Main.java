@@ -1,5 +1,6 @@
 import Decorator.RedShapeDecorator;
 import Facade.ShapeMaker;
+import FacadeKt.ShapeMakerKt;
 import Models.Shape;
 import Factory.ShapeFactory;
 
@@ -31,5 +32,28 @@ public class Main
     shapeMaker.drawRectangle();// Same result as shapeRectangle::draw() method -> Inside Rectangle::draw() method.
 
     shapeMaker.drawSquare();// Same result as shapeSquare::draw() method -> Inside Square::draw() method.
+
+
+    /* Here even after manipulate some Java classes, we can manipulate Kotlin classes too, what is amazing! */
+
+    FactoryKt.ShapeFactory shapeFactoryKt = new FactoryKt.ShapeFactory();
+
+    KotlinModels.Shape shapeCircleKt = shapeFactoryKt.getShape("Circle");
+    KotlinModels.Shape shapeSquareKt = shapeFactoryKt.getShape("Square");
+    KotlinModels.Shape shapeRectangleKt = shapeFactoryKt.getShape("Rectangle");
+
+    DecoratorKt.RedShapeDecorator decoratorKt = new DecoratorKt.RedShapeDecorator(shapeCircleKt);
+
+    decoratorKt.draw();
+
+    // Again my favorite one! I love this pattern! Really helps a lot on doc and modularization of any aplication, but for me
+    //especially in Android apps! :D
+    ShapeMakerKt shapeMakerKt = new ShapeMakerKt();
+
+    shapeMakerKt.drawCircle();//Same result as shapeCircle::draw() method in Java -> Inside Circle::draw() method.
+
+    shapeMakerKt.drawRectangle();//Same result as shapeRectangle::draw() method in Java -> Inside Rectangle::draw() method.
+
+    shapeMakerKt.drawSquare();//Same result as shapeSquare::draw() method in Java -> Inside Square::draw() method.
   }
 }
